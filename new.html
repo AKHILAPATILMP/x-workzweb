@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical NavBar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUU0gy0nKi8xmG9_hXm4yb4n-sCTEnWTKG3w&s");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100px;
+            background-color: antiquewhite;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        ul li {
+            display: block;
+            color: goldenrod;
+            font-size: 22px;
+            padding: 16px;
+            text-align: left;
+        }
+
+        ul li a {
+            display: block;
+            color: purple;
+            text-decoration: none;
+        }
+
+        ul li:hover {
+            background-color: yellowgreen;
+        }
+
+        ul li.help {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="https://www.facebook.com/login/device-based/regular/login/?_rdc=1&_rdr#">Home</a></li>
+        <li><a href="https://www.instagram.com/accounts/login/?hl=en">About</a></li>
+        <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+        <li><a href="https://www.w3schools.com/java/">Java</a></li>
+        <li class="help">Help</li>
+    </ul>
+
+</body>
+</html>
