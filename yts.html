@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube</title>
+  <link rel="stylesheet" href="yts.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <i class="fas fa-bars"></i>
+      <img src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg" alt="YouTube Logo" class="logo">
+    
+    </div>
+
+    <div class="nav-center">
+      <input type="text" class="search-input" placeholder="Search">
+      <button class="search-btn"><i class="fas fa-search"></i></button>
+      <button class="mic-btn"><i class="fas fa-microphone"></i></button>
+
+    </div>
+
+    <div class="nav-right">
+      <button class="right-btn"><i class="fas fa-plus"></i> Create</button>
+      <button class="icon-btn"><i class="fas fa-bell"></i></button>
+      <button class="icon-btn"><i class="fas fa-ellipsis-v"></i></button>
+        <button class="sign-in-btn">
+          <i class="fas fa-user"></i> Sign In
+        </button>
+      </div>
+  </nav>
+ 
+  
+  <div class="video-layout">
+    <div class="main-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/AJSeaFthdeE?si=q3n9CQ829ml-3BrS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>   
+        <div class="video-description">
+            <h2>Naguva Nayana Madhura Mouna Video Song</h2>
+            <p class="video-subtitle">Lahari Music Video • 12M Views </p>
+      
+            <div class="channel-info">
+              <img src="data:image/png;base64,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" alt="t series logo" class="channel-logo">
+              <div>
+                <h4>T-series</h4>
+                <p>50K subscribers</p>
+              </div>
+              <button class="subscribe-btn">Subscribe</button>
+              <div class="video-actions">
+                <button><i class="fas fa-thumbs-up"></i> 25K</button>
+                <button><i class="fas fa-thumbs-down"></i> 200</button>
+                <button><i class="fas fa-share"></i> Share</button>
+                <button><i class="fas fa-download"></i> Download</button>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+          <div class="suggested-videos">
+            <div class="video-actions">
+              <button class="tab active">All</button>
+              <button class="tab">From Masha and The Bear</button>
+              <button class="tab">Related</button>
+              <button class="tab"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="suggested-video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YgrJTb3EEB4?si=XBium5cG8Bwh3Ybw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+              <div class="video-info">
+                <h4>Chutki- Raju Golgappa shots</h4>
+                <p>Green Gold Kids <span aria-label="Verified account" style="display: inline-flex; align-items: center; justify-content: center; width: 1.2em; height: 1.2em; border-radius: 50%; background-color: black; color: white; font-size: 0.9em; margin-left: 5px;">
+                  <svg viewBox="0 0 24 24" fill="currentColor" height="1em" width="1em">
+                      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                  </svg>
+              </span> </p>
+                  <p>11M views • 3 years ago</p>
+              </div>
+              <button class="icon-btn"><i class="fas fa-ellipsis-v"></i></button>
+            </div>
+            <div class="suggested-video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/LfhqIiY5--8?si=tm4OHup2hVX4Ivb9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               
+                <div class="video-info">
+                  <h4>Cindrella short movie</h4>
+                  <p> Chuchu Channel <span aria-label="Verified account" style="display: inline-flex; align-items: center; justify-content: center; width: 1.2em; height: 1.2em; border-radius: 50%; background-color: black; color: white; font-size: 0.9em; margin-left: 5px;">
+                    <svg viewBox="0 0 24 24" fill="currentColor" height="1em" width="1em">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                </span></p>
+                    <p> 18M views • 4 years ago</p>
+                </div>
+                <button class="icon-btn"><i class="fas fa-ellipsis-v"></i></button>
+              </div>
+              <div class="suggested-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jMXyCauCXlg?si=4WRx89YxSDzvqrwT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                  <h4>Pahalgam Terror Attack</h4>
+                  <p> CNBC-TV 18 <span aria-label="Verified account" style="display: inline-flex; align-items: center; justify-content: center; width: 1.2em; height: 1.2em; border-radius: 50%; background-color: black; color: white; font-size: 0.9em; margin-left: 5px;">
+                    <svg viewBox="0 0 24 24" fill="currentColor" height="1em" width="1em">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                </span></p>
+                  <p> 18M views • 4 years ago</p>
+                </div>
+                <button class="icon-btn"><i class="fas fa-ellipsis-v"></i></button>
+              </div>
+              <div class="suggested-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EV9nsRE2UW4?si=OsvG9QwaKoeIl2Gv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+                <div class="video-info">
+                  <h4>Chhota beam Holi Celebration</h4>
+                  <p>Chuchu <span aria-label="Verified account" style="display: inline-flex; align-items: center; justify-content: center; width: 1.2em; height: 1.2em; border-radius: 50%; background-color: black; color: white; font-size: 0.9em; margin-left: 5px;">
+                    <svg viewBox="0 0 24 24" fill="currentColor" height="1em" width="1em">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                </span></p>
+                  <p> 18M views • 4 years ago</p>
+                </div>
+                <button class="icon-btn"><i class="fas fa-ellipsis-v"></i></button>
+              </div>
+              <div class="suggested-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LbakkE5FtXA?si=KyasdoZSS5d2VSN-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="video-info">
+                        <h4>Hansel and Gretel</h4>
+                  <p>Chuchu TV <span aria-label="Verified account" style="display: inline-flex; align-items: center; justify-content: center; width: 1.2em; height: 1.2em; border-radius: 50%; background-color: black; color: white; font-size: 0.9em; margin-left: 5px;">
+                    <svg viewBox="0 0 24 24" fill="currentColor" height="1em" width="1em">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                </span></p>
+                  <p> 89M views • 8 years ago</p>
+                </div>
+                <button class="icon-btn"><i class="fas fa-ellipsis-v"></i></button>
+              </div>
+              <div class="suggested-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mRuSUrvYRJc?si=Yt4rRLhX7hmW-gHa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                        <h4>Funny and Bunny</h4>
+                  <p>Littlepots words <span aria-label="Verified account" style="display: inline-flex; align-items: center; justify-content: center; width: 1.2em; height: 1.2em; border-radius: 50%; background-color: black; color: white; font-size: 0.9em; margin-left: 5px;">
+                    <svg viewBox="0 0 24 24" fill="currentColor" height="1em" width="1em">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                </span></p>
+                  <p> 1M views • 10 years ago</p>
+                </div>
+                <button class="icon-btn"><i class="fas fa-ellipsis-v"></i></button>
+              </div>
+            
+</body>
+</html>
