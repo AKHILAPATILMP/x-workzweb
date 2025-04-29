@@ -7,12 +7,17 @@
 </head>
 <script src="form2.js"></script>
 <body>
-    <form name="registration" onsubmit="submitForm()">
+    <form name="registration" onsubmit="return submitForm()" >
+        
+            <span class="name">hlo</span>
+            <span class="name">madam</span>
+        <button onclick="onClick()">click</button><br>
         <div>
             <label for="nameId">Name</label>
             <span style="color: red;">*</span>
             <span>:</span>
             <input type="text" id="nameId" name="nameName" required>
+            <span id="name"></span>
         </div>
 <br>
         <div>
@@ -20,6 +25,7 @@
             <span style="color: red;">*</span>
             <span>:</span>
             <input type="email" id="emailId" name="emailName" required>
+            
         </div>
 <br>
         <div>
@@ -27,6 +33,7 @@
             <span style="color: red;">*</span>
             <span>:</span>
             <input type="tel" id="phoneId" name="phoneName">
+            <span id="id"></span>
         </div>
 <br>
         <div>
@@ -34,6 +41,7 @@
             <span style="color: red;">*</span>
             <span>:</span>
             <input type="number" id="ageId" name="ageName" min="0" max="150">
+            <span id="number"></span>
         </div>
 <br>
         <div>
