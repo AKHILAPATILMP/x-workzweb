@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+  <center>
+    <form name="formName" onsubmit="return validate()" style="background-color: #e0f7fa; padding: 20px; width: 400px; border-radius: 10px;">
+      <h1>Registration Form</h1>
+      <div>
+        <label>Name</label>
+        <span style="color: red;">*</span> :
+        <input type="text" id="nameId" name="nameName" required>
+      </div><br>
+      <div>
+        <label>Email</label>
+        <span style="color: red;">*</span> :
+        <input type="text" id="emailId" name="email" required>
+      </div><br>
+      <div>
+        <label>Contact</label>
+        <span style="color: red;">*</span> :
+        <input type="text" id="contactId" name="contact" required>
+      </div><br>
+      <div>
+        <label>Address</label>
+        <span style="color: red;">*</span> :
+        <input type="text" id="addressId" name="address" required>
+      </div><br>
+      <div>
+        <label>Gender</label> :
+        <select id="genderId" name="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div><br>
+      <div>
+        <label>Password</label>
+        <span style="color: red;">*</span> :
+        <input type="password" id="passwordId" name="password" required>
+      </div><br>
+      <div>
+        <label>Confirm Password</label>
+        <span style="color: red;">*</span> :
+        <input type="password" id="confirmPasswordId" name="confirmPassword" required>
+      </div><br>
+      <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+      </div>
+    </form>
+  </center>
+  <script src="date.js"></script>
+</body>
+</html>

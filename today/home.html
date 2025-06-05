@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LaptopZone - Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Navbar --> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">LaptopZone</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+         </ul>
+        
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section using Bootstrap only -->
+    <div class="bg-primary bg-gradient text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Explore top laptop brands and latest deals at unbeatable prices</h1>
+              <a href="#" class="btn btn-light btn-lg mt-3">Shop Now</a>
+      </div>
+    </div>
+
+    <!-- Product Cards -->
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <!-- Product 1 -->
+        <div class="col">
+          <div class="card h-50">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT3iYYHKULQtUBhjc0philjBq8p5Dsf4qOHkkOmE-L3DO7Y0qxSKSg_lVr7qAOEUB7Gl4w7pE44RzBS_Bi2Kk1HNOeAvaZj7IgPrNmUYA0Z5jiJJy8Nyx-bAkFiIKM9qW0MNWwcK6sM&usqp=CAc" class="card-img-top" alt="HP Laptop" height="250" width="250">
+            <div class="card-body">
+              <h5 class="card-title">HP Pavilion</h5>
+              <p class="card-text">Intel i5, 8GB RAM, 512GB SSD</p>
+              <p class="fw-bold text-success">₹55,000</p>
+              <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col">
+          <div class="card h-50">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRsfHTZhnvuw3a4JLT2M_8irgnI_w8hJRTpnzpZMeFcgYP-iOluCUH6YWhHu1njO4B7ZC548Re83GNAgJvkaRBsUfqZ7lmr-JWfvR2K4DXwjKRTPJSyGhHX6BrD5RsB6c6Q7JgmUH8&usqp=CAc" class="card-img-top" alt="Dell Laptop" height="250" width="250">
+            <div class="card-body">
+              <h5 class="card-title">Dell Inspiron</h5>
+              <p class="card-text">Intel i7, 16GB RAM, 1TB SSD</p>
+              <p class="fw-bold text-success">₹75,000</p>
+              <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="data:image/webp;base64,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" height="250" width="250"" class="card-img-top" alt="Lenovo Laptop">
+            <div class="card-body">
+              <h5 class="card-title">Lenovo ThinkPad</h5>
+              <p class="card-text">Ryzen 5, 8GB RAM, 256GB SSD</p>
+              <p class="fw-bold text-success">₹49,999</p>
+              <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p class="mb-0">&copy; 2025 LaptopZone Created by Akhila</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
